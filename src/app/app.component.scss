@@ -11,11 +11,13 @@
 }
 
 #footer {
-    text-align: right;
-    padding: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
-    position: relative;
-    margin-top: 78vh;
+    text-align: center;
+    background-color: #17223294;
 }
 a:link {
     color: white;
@@ -458,7 +460,7 @@ app-welcome-animation:hover {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .companion-animation {
         height: 30vh;
         left: 10vw;
